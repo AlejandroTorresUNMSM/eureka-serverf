@@ -3,6 +3,6 @@ WORKDIR /app
 
 COPY ./target/eureka-serverf-0.0.1-SNAPSHOT.jar eureka-serverf-0.0.1-SNAPSHOT.jar
 
-EXPOSE 8081
+EXPOSE 8761
 
-ENTRYPOINT ["java", "-jar", "eureka-serverf-0.0.1-SNAPSHOT"]
+ENTRYPOINT ["java", "-jar", "eureka-serverf-0.0.1-SNAPSHOT.jar"]
